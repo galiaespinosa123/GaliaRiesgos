@@ -6,6 +6,7 @@ import plotly.graph_objs as go
 import google.generativeai as genai
 from deep_translator import GoogleTranslator
 
+api_key = st.secrets["gemini"]["api_key"]
 genai.configure(api_key=api_key)
 modelo = genai.GenerativeModel("gemini-1.5-flash")
 

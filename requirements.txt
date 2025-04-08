@@ -75,3 +75,5 @@ uritemplate==4.1.1
 urllib3==2.3.0
 watchdog==6.0.0
 yfinance==0.2.54
+deep-translator==1.11.4
+deep-translator==1.11.4

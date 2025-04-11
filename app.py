@@ -114,8 +114,6 @@ with st.sidebar:
         Los datos se obtienen de Yahoo Finance y el resumen se genera usando la API Gemini de Google.
         """)
 
-# Configuración de la API de Gemini
-api_key = "AIzaSyCPyb9KQcsRe87k_T9WJmLTHtIt340pHHw"  # Reemplazar con tu API key real
 try:
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel("gemini-1.5-flash")

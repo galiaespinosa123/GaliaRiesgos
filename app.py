@@ -10,7 +10,6 @@ from deep_translator import GoogleTranslator
 import os
 
 # --- CONFIGURACIÓN DE LA API KEY DE GEMINI (¡MENOS SEGURO!) ---
-api_key = "AIzaSyCPyb9KQcsRe87k_T9WJmLTHtIt340pHHw"  # Reemplaza con tu API key real
 
 # --- CONFIGURACIÓN DE LA PÁGINA Y ESTILO ---
 st.set_page_config(page_title="Análisis Financiero Avanzado", page_icon="📈", layout="wide")

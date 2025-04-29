@@ -9,9 +9,6 @@ import google.generativeai as genai
 from deep_translator import GoogleTranslator
 import os
 
-# --- CONFIGURACIÓN DE LA API KEY DE GEMINI (¡MENOS SEGURO!) ---
-
-# --- CONFIGURACIÓN DE LA PÁGINA Y ESTILO ---
 st.set_page_config(page_title="Análisis Financiero Avanzado", page_icon="📈", layout="wide")
 st.markdown("""
     <style>
@@ -273,9 +270,4 @@ def main():
                 st.query_params["ticker"] = action
     if "ticker" in st.session_state and st.session_state.ticker:
         main() # Volver a ejecutar la función principal con el ticker seleccionado
-
-if __name__ == "__main__":
-    if "ticker" not in st.session_state and "ticker" in st.query_params:
-        st.session_state.ticker = st.query_params["ticker"]
-        st.rerun()
-    main()
+    # --- SECCIÓN DE CONFIGURACIÓN DE API KEY ---       

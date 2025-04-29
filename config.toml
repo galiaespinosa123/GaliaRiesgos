@@ -1,0 +1,5 @@
+[theme]
+primaryColor="#191970"  # Azul oscuro
+secondaryBackgroundColor="#31333F"  # Gris oscuro
+textColor="#FFFFFF"       # Blanco para el texto
+accentColor="#ADD8E6"     # Azul claro para acentos
